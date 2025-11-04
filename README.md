@@ -345,7 +345,7 @@ if (quiz.isPresent()) {
 
 ---
 
-## 📖 Ressources pour Apprendre
+## 📖 Ressources Utiles
 
 - [Spring Boot Official Docs](https://spring.io/projects/spring-boot)
 - [Baeldung Spring Tutorials](https://www.baeldung.com/spring-tutorial)
