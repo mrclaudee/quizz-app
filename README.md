@@ -13,7 +13,7 @@ Le projet suit une **architecture en couches** classique Spring Boot :
 ```
 ┌─────────────────────────────────────┐
 │     Controller Layer                │  ← Gestion des requêtes HTTP
-│  (QuestionController, QuizController)│
+│ (QuestionController, QuizController)│
 └──────────────┬──────────────────────┘
                │
 ┌──────────────▼──────────────────────┐
@@ -120,16 +120,16 @@ QuestionDto {
 
 ### 5. **RESTful API Design**
 
-| Méthode HTTP | Endpoint | Action |
-|--------------|----------|--------|
-| `GET` | `/question/allQuestions` | Récupérer toutes les questions |
-| `GET` | `/question/category/{category}` | Filtrer par catégorie |
-| `POST` | `/question/add` | Ajouter une question |
-| `PUT` | `/question/update` | Modifier une question |
-| `DELETE` | `/question/delete/{id}` | Supprimer une question |
-| `POST` | `/quiz/create` | Créer un quiz |
-| `GET` | `/quiz/get/{quizId}` | Récupérer les questions d'un quiz |
-| `POST` | `/quiz/submit/{id}` | Soumettre les réponses |
+| Méthode HTTP | Endpoint                        | Action                            |
+|--------------|---------------------------------|-----------------------------------|
+| `GET`        | `/question/allQuestions`        | Récupérer toutes les questions    |
+| `GET`        | `/question/category/{category}` | Filtrer par catégorie             |
+| `POST`       | `/question/add`                 | Ajouter une question              |
+| `PUT`        | `/question/update`              | Modifier une question             |
+| `DELETE`     | `/question/delete/{id}`         | Supprimer une question            |
+| `POST`       | `/quiz/create`                  | Créer un quiz                     |
+| `GET`        | `/quiz/get/{quizId}`            | Récupérer les questions d'un quiz |
+| `POST`       | `/quiz/submit/{id}`             | Soumettre les réponses            |
 
 ---
 
@@ -350,16 +350,3 @@ if (quiz.isPresent()) {
 - [Spring Boot Official Docs](https://spring.io/projects/spring-boot)
 - [Baeldung Spring Tutorials](https://www.baeldung.com/spring-tutorial)
 - [JPA / Hibernate Guide](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
-
----
-
-## 🎓 Conclusion
-
-Ce projet démontre les **fondamentaux de Spring Boot** :
-- Architecture en couches
-- Injection de dépendances
-- JPA et relations entre entités
-- API REST avec ResponseEntity
-- Pattern DTO pour sécuriser les données
-
-C'est une excellente base pour comprendre comment structurer une application Spring Boot professionnelle ! 🚀
