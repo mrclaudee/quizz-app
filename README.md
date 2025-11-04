@@ -1,4 +1,4 @@
-# Quiz Application - Spring Boot
+# Quiz Application – Spring Boot
 
 ## 📋 Description du Projet
 
